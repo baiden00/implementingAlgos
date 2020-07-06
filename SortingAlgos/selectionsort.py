@@ -8,17 +8,6 @@ def selection_sort(array):
         array[i], array[min_idx] = array[min_idx], array[i]
 
 
-
-
-
-
-
-
-
-
-
-
-
 array = [4, 22, 41, 40, 27, 30, 36, 16, 42, 37, 14, 39, 3, 6, 34, 9, 21, 2, 29, 47]
 selection_sort(array)
 print("sorted array: " + str(array))
